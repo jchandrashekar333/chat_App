@@ -1,0 +1,18 @@
+npm init -y  -->  intialize the project than get the (package.json) into the project.
+                        (package.json contains the all meta data about your project)
+npm install typescript  -->  get the typescript into in our folder.
+npx tsc --init --> intialize the typescript compiler.(getting the ts.config.json) file into the our project
+                    (ts.config.json file is like a ruleBook for the typescript compiler).
+
+rootDir and outDir  __> in the ts.config 
+------Above is same for the any typescript project.------------------------
+
+//-> if u can write the http server for the Backend u need to install the "npm i express @types/express"
+     (@types/express) - this is for the getting types for the express .because we are writting the code in typescript
+
+
+---> In this project we are using the websocket server for the backend  ( npm i ws @types/ws) ,websocket sever in node.
+-->npm i jsonwebtoken -- ( for authentication and authorization )   we dont need insrall @types/jsonwebtoken . it already had 
+    typeScript defination feild
+--> add "dev" :"tsc -b && node ./dist/index.js" (compile the code and run the typescript code).
+--->create the websocker server.
